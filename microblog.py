@@ -1,6 +1,6 @@
 import sqlalchemy as sa
 import sqlalchemy.orm as so
-from my_app import app, db
+from my_app import app, db, cli
 from my_app.models import User, Post
 
 

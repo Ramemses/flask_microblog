@@ -13,4 +13,4 @@ class Config:
 	ADMINS = ['romakin2007@gmail.com']
 
 	POST_PER_PAGE = 25
-
+	LANGUAGES = ['en', 'ru']
