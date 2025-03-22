@@ -1,17 +1,19 @@
-# Translations template for PROJECT.
+# Russian translations for PROJECT.
 # Copyright (C) 2025 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-03-22 17:33+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2025-03-22 17:33+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,233 +21,233 @@ msgstr ""
 
 #: my_app/__init__.py:23
 msgid "Please log in to access this page."
-msgstr ""
+msgstr "Зарегестрируйтесь, чтобы просмотреть страницу"
 
 #: my_app/translate.py:9
 msgid "Error: the translation service is not configured."
-msgstr ""
+msgstr "Ошибка: служба перевода не настроена"
 
 #: my_app/translate.py:20
 msgid "Error: the translation service failed."
-msgstr ""
+msgstr "Ошибка: перевод не удался"
 
 #: my_app/auth/email.py:8
 msgid "[Microblog] Reset Your Password"
-msgstr ""
+msgstr "[Microblog] Сбросить свой пароль"
 
 #: my_app/auth/forms.py:11 my_app/auth/forms.py:18 my_app/main/forms.py:11
 msgid "Username"
-msgstr ""
+msgstr "Имя пользователя"
 
 #: my_app/auth/forms.py:12 my_app/auth/forms.py:20 my_app/auth/forms.py:45
 msgid "Password"
-msgstr ""
+msgstr "Пароль"
 
 #: my_app/auth/forms.py:13
 msgid "Remember Me"
-msgstr ""
+msgstr "Запомнить меня"
 
 #: my_app/auth/forms.py:14 my_app/auth/routes.py:30
 #: my_app/templates/auth/login.html:5
 msgid "Sign In"
-msgstr ""
+msgstr "Войти"
 
 #: my_app/auth/forms.py:19 my_app/auth/forms.py:40
 msgid "Email"
-msgstr ""
+msgstr "Почта"
 
 #: my_app/auth/forms.py:22 my_app/auth/forms.py:47
 msgid "Repeat Password"
-msgstr ""
+msgstr "Повторить пароль"
 
 #: my_app/auth/forms.py:24 my_app/auth/routes.py:51
 msgid "Register"
-msgstr ""
+msgstr "Зарегестрироваться"
 
 #: my_app/auth/forms.py:30 my_app/main/forms.py:25
 msgid "Please use a different username."
-msgstr ""
+msgstr "Пожалуйста, используйте другое имя пользователя"
 
 #: my_app/auth/forms.py:36
 msgid "Please use a different email address."
-msgstr ""
+msgstr "Пожалуйста, используйте другую почту"
 
 #: my_app/auth/forms.py:41 my_app/auth/forms.py:49
 msgid "Request Password Reset"
-msgstr ""
+msgstr "Запрос на сброс пароля"
 
 #: my_app/auth/routes.py:23
 msgid "Invalid username or password"
-msgstr ""
+msgstr "Неверное имя пользователя или пароль"
 
 #: my_app/auth/routes.py:49
 msgid "Congratulations, you are now a registered user!"
-msgstr ""
+msgstr "Поздравляем, вы зарегестрировались!"
 
 #: my_app/auth/routes.py:66
 msgid "Check your email for the instructions to reset your password"
-msgstr ""
+msgstr "Проверьте свою почту на наличие сообщения с инструкцией"
 
 #: my_app/auth/routes.py:69 my_app/templates/auth/reset_password_request.html:5
 msgid "Reset Password"
-msgstr ""
+msgstr "Сбросить пароль"
 
 #: my_app/auth/routes.py:83
 msgid "Your password has been reset."
-msgstr ""
+msgstr "Ваш пароль был сброшен"
 
 #: my_app/main/forms.py:12
 msgid "About me"
-msgstr ""
+msgstr "О себе"
 
 #: my_app/main/forms.py:14 my_app/main/forms.py:35
 msgid "Submit"
-msgstr ""
+msgstr "Подтвердить"
 
 #: my_app/main/forms.py:33
 msgid "Say something"
-msgstr ""
+msgstr "Расскажите что-нибудь"
 
 #: my_app/main/routes.py:37
 msgid "Your post is now live!"
-msgstr ""
+msgstr "Ваша запись опубликована!"
 
 #: my_app/main/routes.py:47 my_app/templates/base.html:27
 msgid "Home"
-msgstr ""
+msgstr "Домашная страница"
 
 #: my_app/main/routes.py:64 my_app/templates/base.html:30
 msgid "Explore"
-msgstr ""
+msgstr "Исследовать"
 
 #: my_app/main/routes.py:95
 msgid "Your changes have been saved."
-msgstr ""
+msgstr "Ваши изменения сохранены"
 
 #: my_app/main/routes.py:100 my_app/templates/edit_profile.html:5
 msgid "Edit Profile"
-msgstr ""
+msgstr "Изменить профиль"
 
 #: my_app/main/routes.py:112 my_app/main/routes.py:133
 #, python-format
 msgid "User %(username)s not found."
-msgstr ""
+msgstr "Пользователь %(username)s не найден" 
 
 #: my_app/main/routes.py:115
 msgid "You cannot follow yourself!"
-msgstr ""
+msgstr "Вы не можете подписаться на самого себя!"
 
 #: my_app/main/routes.py:119
 #, python-format
 msgid "You are following %(username)s!"
-msgstr ""
+msgstr "Вы подписались на %(username)s!"
 
 #: my_app/main/routes.py:136
 msgid "You cannot unfollow yourself!"
-msgstr ""
+msgstr "Вы не можете отписаться от самого себя!"
 
 #: my_app/main/routes.py:140
 #, python-format
 msgid "You are not following %(username)s."
-msgstr ""
+msgstr "Вы отписались от %(username)s"
 
 #: my_app/templates/_post.html:14
 #, python-format
 msgid "%(username)s said %(when)s"
-msgstr ""
+msgstr "%(username)s сказал %(when)s"
 
 #: my_app/templates/base.html:9
 msgid "Welcome to Microblog"
-msgstr ""
+msgstr "Добро пожаловать в Microblog"
 
 #: my_app/templates/base.html:36
 msgid "Login"
-msgstr ""
+msgstr "Войти"
 
 #: my_app/templates/base.html:40
 msgid "Profile"
-msgstr ""
+msgstr "Профиль"
 
 #: my_app/templates/base.html:43
 msgid "Logout"
-msgstr ""
+msgstr "Выйти"
 
 #: my_app/templates/index.html:5
 #, python-format
 msgid "Hi, %(username)s"
-msgstr ""
+msgstr "Привет %(username)s"
 
 #: my_app/templates/index.html:16 my_app/templates/user.html:40
 msgid "Newer posts"
-msgstr ""
+msgstr "Свежие публикации"
 
 #: my_app/templates/index.html:21 my_app/templates/user.html:45
 msgid "Older posts"
-msgstr ""
+msgstr "Поздние публикации"
 
 #: my_app/templates/user.html:7
 msgid "User"
-msgstr ""
+msgstr "Пользователь"
 
 #: my_app/templates/user.html:10
 msgid "Last seen on"
-msgstr ""
+msgstr "Был в сети"
 
 #: my_app/templates/user.html:12
 #, python-format
 msgid "%(count)d followers"
-msgstr ""
+msgstr "%(count)d подписчиков"
 
 #: my_app/templates/user.html:12
 #, python-format
 msgid "%(count)d following"
-msgstr ""
+msgstr "Подписан на %(count)d пользователей"
 
 #: my_app/templates/user.html:14
 msgid "Edit your profile"
-msgstr ""
+msgstr "Изменить профиль"
 
 #: my_app/templates/user.html:19
 msgid "Follow"
-msgstr ""
+msgstr "Подписаться"
 
 #: my_app/templates/user.html:26
 msgid "Unfollow"
-msgstr ""
+msgstr "Отписаться"
 
 #: my_app/templates/auth/login.html:7
 msgid "New User?"
-msgstr ""
+msgstr "Впервые?"
 
 #: my_app/templates/auth/login.html:7
 msgid "Click to Register!"
-msgstr ""
+msgstr "Кликнуть для регистрации!"
 
 #: my_app/templates/auth/login.html:9
 msgid "Forgot Your Password?"
-msgstr ""
+msgstr "Забыли пароль?"
 
 #: my_app/templates/auth/login.html:10
 msgid "Click to Reset It"
-msgstr ""
+msgstr "Кликнуть для сброса пароля"
 
 #: my_app/templates/auth/reset_password.html:5
 msgid "Reset Your Password"
-msgstr ""
+msgstr "Сбросить пароль"
 
 #: my_app/templates/errors/404.html:4
 msgid "File Not Found"
-msgstr ""
+msgstr "Страница не найдена"
 
 #: my_app/templates/errors/404.html:5 my_app/templates/errors/500.html:6
 msgid "Back"
-msgstr ""
+msgstr "Назад"
 
 #: my_app/templates/errors/500.html:4
 msgid "An unexpected error has occurred"
-msgstr ""
+msgstr "Неизвестная ошибка"
 
 #: my_app/templates/errors/500.html:5
 msgid "The administrator has been notified. Sorry for the inconvenience!"
-msgstr ""
+msgstr "Хз"
 
