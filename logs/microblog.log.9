@@ -1,0 +1,113 @@
+2025-03-20 12:19:16,660 INFO: Microblog startup [in /home/roman/IT/my_progs_directory/Python/new_flask_book/my_app/__init__.py:33]
+2025-03-20 12:24:01,636 INFO: Microblog startup [in /home/roman/IT/my_progs_directory/Python/new_flask_book/my_app/__init__.py:32]
+2025-03-20 12:24:07,563 INFO: Microblog startup [in /home/roman/IT/my_progs_directory/Python/new_flask_book/my_app/__init__.py:32]
+2025-03-20 12:24:13,144 ERROR: Exception on /reset_password_request [POST] [in /home/roman/IT/my_progs_directory/Python/new_flask_book/venv/lib/python3.12/site-packages/flask/app.py:875]
+Traceback (most recent call last):
+  File "/home/roman/IT/my_progs_directory/Python/new_flask_book/venv/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/roman/IT/my_progs_directory/Python/new_flask_book/venv/lib/python3.12/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/roman/IT/my_progs_directory/Python/new_flask_book/venv/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/roman/IT/my_progs_directory/Python/new_flask_book/venv/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/roman/IT/my_progs_directory/Python/new_flask_book/my_app/routes.py", line 100, in reset_password_request
+    send_password_reset_email(user)
+  File "/home/roman/IT/my_progs_directory/Python/new_flask_book/my_app/email.py", line 13, in send_password_reset_email
+    send_email('[Microblog] Reset Your Password', sender=app.config['ADMINS'][0], recipients=[user.email],
+                                                         ^^^
+NameError: name 'app' is not defined
+2025-03-20 12:28:20,570 INFO: Microblog startup [in /home/roman/IT/my_progs_directory/Python/new_flask_book/my_app/__init__.py:32]
+2025-03-20 12:28:25,491 ERROR: Exception on /reset_password_request [POST] [in /home/roman/IT/my_progs_directory/Python/new_flask_book/venv/lib/python3.12/site-packages/flask/app.py:875]
+Traceback (most recent call last):
+  File "/home/roman/IT/my_progs_directory/Python/new_flask_book/venv/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/roman/IT/my_progs_directory/Python/new_flask_book/venv/lib/python3.12/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/roman/IT/my_progs_directory/Python/new_flask_book/venv/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/roman/IT/my_progs_directory/Python/new_flask_book/venv/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/roman/IT/my_progs_directory/Python/new_flask_book/my_app/routes.py", line 100, in reset_password_request
+    send_password_reset_email(user)
+  File "/home/roman/IT/my_progs_directory/Python/new_flask_book/my_app/email.py", line 14, in send_password_reset_email
+    send_email('[Microblog] Reset Your Password', sender=app.config['ADMINS'][0], recipients=[user.email],
+                                                         ^^^
+NameError: name 'app' is not defined
+2025-03-20 19:42:11,419 INFO: Microblog startup [in /home/roman/IT/my_progs_directory/Python/new_flask_book/my_app/__init__.py:32]
+2025-03-20 19:42:20,100 ERROR: Exception on /reset_password_request [POST] [in /home/roman/IT/my_progs_directory/Python/new_flask_book/venv/lib/python3.12/site-packages/flask/app.py:875]
+Traceback (most recent call last):
+  File "/home/roman/IT/my_progs_directory/Python/new_flask_book/venv/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/roman/IT/my_progs_directory/Python/new_flask_book/venv/lib/python3.12/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/roman/IT/my_progs_directory/Python/new_flask_book/venv/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/roman/IT/my_progs_directory/Python/new_flask_book/venv/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/roman/IT/my_progs_directory/Python/new_flask_book/my_app/routes.py", line 100, in reset_password_request
+    send_password_reset_email(user)
+  File "/home/roman/IT/my_progs_directory/Python/new_flask_book/my_app/email.py", line 14, in send_password_reset_email
+    send_email('[Microblog] Reset Your Password', sender=app.config['ADMINS'][0], recipients=[user.email],
+                                                         ^^^
+NameError: name 'app' is not defined
+2025-03-20 19:44:02,868 INFO: Microblog startup [in /home/roman/IT/my_progs_directory/Python/new_flask_book/my_app/__init__.py:32]
+2025-03-20 19:44:11,306 ERROR: Exception on /reset_password_request [POST] [in /home/roman/IT/my_progs_directory/Python/new_flask_book/venv/lib/python3.12/site-packages/flask/app.py:875]
+Traceback (most recent call last):
+  File "/home/roman/IT/my_progs_directory/Python/new_flask_book/venv/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/roman/IT/my_progs_directory/Python/new_flask_book/venv/lib/python3.12/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/roman/IT/my_progs_directory/Python/new_flask_book/venv/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/roman/IT/my_progs_directory/Python/new_flask_book/venv/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/roman/IT/my_progs_directory/Python/new_flask_book/my_app/routes.py", line 100, in reset_password_request
+    send_password_reset_email(user)
+  File "/home/roman/IT/my_progs_directory/Python/new_flask_book/my_app/email.py", line 14, in send_password_reset_email
+    send_email('[Microblog] Reset Your Password', sender=app.config['ADMINS'][0], recipients=[user.email],
+                                                         ^^^
+NameError: name 'app' is not defined
+2025-03-20 19:45:12,724 INFO: Microblog startup [in /home/roman/IT/my_progs_directory/Python/new_flask_book/my_app/__init__.py:32]
+2025-03-20 19:45:17,218 ERROR: Exception on /reset_password_request [POST] [in /home/roman/IT/my_progs_directory/Python/new_flask_book/venv/lib/python3.12/site-packages/flask/app.py:875]
+Traceback (most recent call last):
+  File "/home/roman/IT/my_progs_directory/Python/new_flask_book/venv/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/roman/IT/my_progs_directory/Python/new_flask_book/venv/lib/python3.12/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/roman/IT/my_progs_directory/Python/new_flask_book/venv/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/roman/IT/my_progs_directory/Python/new_flask_book/venv/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/roman/IT/my_progs_directory/Python/new_flask_book/my_app/routes.py", line 102, in reset_password_request
+    return redirect(url_forn('login'))
+                    ^^^^^^^^
+NameError: name 'url_forn' is not defined. Did you mean: 'url_for'?
+2025-03-20 19:45:54,961 INFO: Microblog startup [in /home/roman/IT/my_progs_directory/Python/new_flask_book/my_app/__init__.py:32]
+2025-03-20 19:48:09,126 INFO: Microblog startup [in /home/roman/IT/my_progs_directory/Python/new_flask_book/my_app/__init__.py:32]
+2025-03-20 19:57:10,586 INFO: Microblog startup [in /home/roman/IT/my_progs_directory/Python/new_flask_book/my_app/__init__.py:32]
+2025-03-20 20:37:20,543 INFO: Microblog startup [in /home/roman/IT/my_progs_directory/Python/new_flask_book/my_app/__init__.py:32]
+2025-03-21 15:10:43,219 INFO: Microblog startup [in /home/roman/IT/my_progs_directory/Python/new_flask_book/my_app/__init__.py:32]
+2025-03-21 15:13:06,518 INFO: Microblog startup [in /home/roman/IT/my_progs_directory/Python/new_flask_book/my_app/__init__.py:32]
+2025-03-21 15:23:18,497 INFO: Microblog startup [in /home/roman/IT/my_progs_directory/Python/new_flask_book/my_app/__init__.py:32]
+2025-03-21 15:31:53,142 INFO: Microblog startup [in /home/roman/IT/my_progs_directory/Python/new_flask_book/my_app/__init__.py:33]
